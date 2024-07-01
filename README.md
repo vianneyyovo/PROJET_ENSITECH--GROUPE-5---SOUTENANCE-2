@@ -1,4 +1,4 @@
 # PROJET_ENSITECH--GROUPE-5---SOUTENANCE-2
 ENSITECH -GROUPE 5 - SOUTENANCE 2_10000 CODEURS
 
-# Mise en oeuvre de la documentation par Omar Fall
+# Mise en oeuvre de la documentation
