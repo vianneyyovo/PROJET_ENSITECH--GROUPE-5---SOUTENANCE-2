@@ -1235,3 +1235,28 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+
+
+h1 {
+  color: blue;
+  text-transform: uppercase;
+}
+table {
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid block;
+}
+th {
+  justify-content: center;
+  text-align: center;
+  color: fuchsia;
+  font-weight: bold;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+  justify-content: center;
+  text-align: center;
+}
