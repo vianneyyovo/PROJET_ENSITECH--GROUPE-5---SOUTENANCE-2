@@ -27,13 +27,14 @@
     <title>Liste Etudiants ENSITECH</title>
   </head>
   <style>
-    
+      
   </style>
   <body>
     
         
       <!-- ======= Header ======= -->
       <header id="header" class="header fixed-top d-flex align-items-center">
+
         <div class="d-flex align-items-center justify-content-between">
           <a href="index.html" class="logo d-flex align-items-center">
             <img src="img/logo.png" alt="" />
@@ -108,7 +109,7 @@
               >
                 <li class="dropdown-header">
                   <h6>Douglas MBIANDOU</h6>
-                  <span>Directeur Général</span>
+                  <span>Directeur</span>
                 </li>
                 <li>
                   <hr class="dropdown-divider" />
@@ -158,19 +159,144 @@
         </nav>
         <!-- End Icons Navigation -->
     </header>
+
+    <aside id="sidebar" class="sidebar">
+      <ul class="sidebar-nav" id="sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="accueil.html">
+            <i class="bi bi-grid"></i>
+            <span>Tableau de bord</span>
+          </a>
+        </li>
+        <!-- End Dashboard Nav -->
+
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            data-bs-target="#components-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i class="bi bi-menu-button-wide"></i><span>Gestion Etudiants</span
+            ><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul
+            id="components-nav"
+            class="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+          >
+            <li>
+              <a href="">
+                <i class="bi bi-circle"></i><span>Créer un étudiant</span>
+              </a>
+            </li>
+            <li>
+              <a href="LireInfoStudent.html">
+                <i class="bi bi-circle"></i
+                ><span>Lire les informations d'un étudiant</span>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="bi bi-circle"></i
+                ><span>Modifier les informations d'un étudiant</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="bi bi-circle"></i><span>Supprimer un étudiant</span>
+              </a>
+            </li>
+            <li>
+              <a href="ListStudent.html">
+                <i class="bi bi-circle"></i
+                ><span>Consulter la liste des étudiants</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- End Components Nav -->
+
+        <li class="nav-item">
+          <a
+            class="nav-link collapsed"
+            data-bs-target="#forms-nav"
+            data-bs-toggle="collapse"
+            href="#"
+          >
+            <i class="bi bi-journal-text"></i><span>Gestion Cours</span
+            ><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul
+            id="forms-nav"
+            class="nav-content collapse"
+            data-bs-parent="#sidebar-nav"
+
+          >
+          <li>
+            <a href="#">
+              <i class="bi bi-circle"></i
+              ><span>Creer cours</span>
+            </a>
+          </li>
+            <li>
+              <a href="#">
+                <i class="bi bi-circle"></i
+                ><span>Associer cours à un étudiant</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- End Forms Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#">
+            <i class="bi bi-person"></i>
+            <span>Profil</span>
+          </a>
+        </li>
+        <!-- End Profile Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#">
+            <i class="bi bi-card-list"></i>
+            <span>creer compte utilisateur</span>
+          </a>
+        </li>
+        <!-- End Register Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#">
+            <i class="bi bi-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </li>
+        <!-- End Contact Page Nav -->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#">
+            <i class="bi bi-file-earmark"></i>
+            <span>A propos</span>
+          </a>
+        </li>
+        <!-- End About Page Nav -->
+      </ul>
+    </aside>
+    <!-- End Sidebar-->
     <main id="main" class="main">
       <!-- Active Table -->
-      <table class="table table-borderless">
+      <table class="table table-borderless table-primary ">
         <thead>
           <tr>
             <th scope="col">#</th>
             <th scope="col">NOM</th>
             <th scope="col">PRENOM</th>
-            <th scope="col">Email</th>
-            <th scope="col">PAYS</th>
-            <th scope="col">FORMATION</th>
+            <th scope="col">NAISS</th>
+            <th scope="col">SEXE</th>
             <th scope="col">TELEPHONE</th>
-            <th scope="col">DATE DE DEBUT</th>
+            <th scope="col"> EMAIL</th>
+            <th scope="col">CYCLE</th>
+            <th scope="col">FILIERE</th>
           </tr>
         </thead>
         <tbody>
@@ -178,65 +304,96 @@
             <th scope="row">1</th>
             <td>Vianey</td>
             <td>yovo</td>
-            <td>vianeyovo@ensitech.com</td>
-            <td>togo</td>
-            <td>Scrum master</td>
+            <td>22/05/1997</td>
+            <td>M</td>
             <td>2827849258</td>
-            <td>2016-05-25</td>
+            <td>vianney@gmail.com</td>
+            <td>Licence</td>
+            <td>Agronomie</td>
+           
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>Fall</td>
             <td>Omar</td>
-            <td>fallomar@ensitech.com</td>
-            <td>Cote d'ivoire</td>
-            <td>Developpeur full stack</td>
-            <td>35354658452</td>
-            <td>2014-12-05</td>
+            <td>18/03/1991</td>
+            <td>M</td>
+            <td>0747643420</td>
+            <td>fallomar0123@ensitech.com</td>
+            <td>Master</td>
+            <td>Informatique</td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>Fabrice</td>
             <td>Nakam</td>
-            <td>fabricen@ensitech.com</td>
-            <td>Cameroun</td>
-            <td>Product owner</td>
-            <td>4512566322</td>
-            <td>2024-08-12</td>
+            <td>01/01/1995</td>
+            <td>M</td>
+            <td>058496825</td>
+            <td>fabrice@ensitech.com</td>
+            <td>Doctorat</td>
+            <td>Conception</td>
           </tr>
           <tr>
             <th scope="row">4</th>
             <td>Justin</td>
             <td>Gode</td>
-            <td>justingode@ensitech.com</td>
-            <td>Benin</td>
-            <td>Web analyste</td>
-            <td>4512566322</td>
-            <td>2024-08-14</td>
+            <td>02/02/1998</td>
+            <td>M</td>
+            <td>0254985652</td>
+            <td>justin@ensitech.com</td>
+            <td>Licence</td>
+            <td>Ressources humaines</td>
           </tr>
           <tr>
             <th scope="row">5</th>
             <td>John</td>
             <td>Mensah</td>
+            <td>03/03/1998</td>
+            <td>M</td>
+            <td>282782549</td>
             <td>john@ensitech.com</td>
-            <td>Benin</td>
-            <td>Batiment</td>
-            <td>4512566322</td>
-            <td>2011-08-14</td>
+            <td>Licence</td>
+            <td>Batiment BTP</td>
           </tr>
           <tr>
             <th scope="row">6</th>
             <td>Saturnin</td>
             <td>Ahoussino</td>
+            <td>10/02/1998</td>
+            <td>M</td>
+            <td>2827849258</td>
             <td>saturnin@ensitech.com</td>
-            <td>Benin</td>
-            <td>developpeur front end</td>
-            <td>4512566322</td>
-            <td>2024-08-14</td>
+            <td>Licence</td>
+            <td>Design</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>R</td>
+            <td>Romuald</td>
+            <td>20/01/1998</td>
+            <td>M</td>
+            <td>2254985684</td>
+            <td>romuald@ensitech.com</td>
+            <td>Licence</td>
+            <td>Design</td>
           </tr>
         </tbody>
       </table>
     </main>
+    <footer id="footer" class="footer">
+      <div class="copyright">
+       <strong><span>Groupe-5</span></strong
+        >
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
+        <a href="membres-gpe5.html">Groupe5-FmtDev10000Codeurs2024-Omar</a>
+      </div>
+    </footer>
     <!-- Vendor JS Files -->
     <script src="vendor/apexcharts/apexcharts.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
