@@ -5,4 +5,4 @@
  -vianney yovo
  -Omar Fall
  
- # ENSITECH est une application web de gesstion d'etablissement scolaire.
+ # ENSITECH est une application web de gestion d'etablissement scolaire.
