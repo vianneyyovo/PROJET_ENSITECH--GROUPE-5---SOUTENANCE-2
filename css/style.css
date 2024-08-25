@@ -65,10 +65,7 @@ h6 {
   margin-bottom: 0;
   font-weight: 600;
   color: #012970;
-<<<<<<< HEAD
-=======
   text-align: center;
->>>>>>> origin/feature-associate-course
 }
 
 /*--------------------------------------------------------------
@@ -220,16 +217,11 @@ h6 {
   border-color: #d3d3d4;
 }
 
-<<<<<<< HEAD
-.bg-body{
-  background-color: blue;
-=======
 .bgd-body{
   background-image: url("/img/backgd-img.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center;
->>>>>>> origin/feature-associate-course
 }
 
 /* Card */
@@ -240,13 +232,10 @@ h6 {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
-<<<<<<< HEAD
-=======
 .bg-form-home{
   background-color:rgb(249 202 75 / 86%);
 }
 
->>>>>>> origin/feature-associate-course
 .card-header,
 .card-footer {
   border-color: #ebeef4;
@@ -374,8 +363,6 @@ h6 {
   border-bottom: 2px solid #4154f1;
 }
 
-<<<<<<< HEAD
-=======
 /*--------------------------------------------
 *connection page
 ---------------------------------------------*/
@@ -425,7 +412,6 @@ h6 {
   align-items: center;
 }
 
->>>>>>> origin/feature-associate-course
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1304,36 +1290,7 @@ h6 {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-<<<<<<< HEAD
-  color: #012970;
-}
-
-
-h1 {
-  color: blue;
-  text-transform: uppercase;
-}
-table {
-  width: 1000px;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid block;
-}
-th {
-  justify-content: center;
-  text-align: center;
-  color: fuchsia;
-  font-weight: bold;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-td {
-  justify-content: center;
-  text-align: center;
-=======
   color: #02163a;
   font-weight: bold;
   
->>>>>>> origin/feature-associate-course
 }
