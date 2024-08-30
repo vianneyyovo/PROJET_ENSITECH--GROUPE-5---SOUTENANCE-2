@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Connexion - Ensitech</title>
-    <meta content="" name="description" />
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
@@ -40,7 +39,7 @@
   ======================================================== -->
   </head>
 
-  <body class="bg-body">
+  <body class="bgd-body">
     <main>
       <div class="container">
         <section
@@ -57,52 +56,69 @@
                     class="logo d-flex align-items-center w-auto"
                   >
                     <img src="img/logo.png" alt="" />
+<<<<<<< HEAD
                     <span class="d-none d-lg-block">ENSITECH</span>
+=======
+                    <span class="d-none d-lg-block">Ensitech</span>
+>>>>>>> main
                   </a>
                 </div>
                 <!-- End Logo -->
 
-                <div class="card mb-3">
+                <div class="card mb-3 bg-form-home">
                   <div class="card-body">
                     <div class="pt-4 pb-2">
                       <h5 class="card-title text-center pb-0 fs-4">
-                        Login
+                        Connexion à votre compte
                       </h5>
+<<<<<<< HEAD
                       
+=======
+                      <p class="text-center small">
+                        Entrer votre email & votre mot de passe pour vous
+                        connecter
+                      </p>
+>>>>>>> main
                     </div>
 
                     <form class="row g-3 needs-validation" novalidate>
-                      <div class="col-12">
-                        <label for="yourUsername" class="form-label"
-                          >Username</label
-                        >
-                        <div class="input-group has-validation">
-                          <input
-                            type="text"
-                            name="username"
-                            class="form-control"
-                            id="yourUsername"
-                            required
-                          />
-                          <div class="invalid-feedback">
-                            Please enter your username.
-                          </div>
+                      <div class="col-12 position">
+                        <label for="email" class="form-label">Email</label>
+
+                        <input
+                          type="text"
+                          name="username"
+                          placeholder="Entrer votre email"
+                          class="form-control icon-input"
+                          id="email"
+                          required
+                        />
+                        <img src="img/envelop.png" id="envel" />
+                        <div class="invalid-feedback">
+                          Entrer votre email svp!
                         </div>
                       </div>
 
-                      <div class="col-12">
-                        <label for="yourPassword" class="form-label"
-                          >Password</label
+                      <div class="col-12 position">
+                        <label for="password" class="form-label"
+                          >Mot de passe</label
                         >
                         <input
                           type="password"
                           name="password"
-                          class="form-control"
-                          id="yourPassword"
+                          placeholder="Entrer votre mot de passe"
+                          class="form-control icon-input"
+                          id="password"
                           required
                         />
+                        <img src="img/lock-icon-transparent-1.jpg" id="lock" />
+                        <img
+                          src="./img/eye-hide.png"
+                          id="eye"
+                          onClick="changer()"
+                        />
                         <div class="invalid-feedback">
-                          Please enter your password!
+                          Entrer votre mot de passe svp!
                         </div>
                       </div>
 
@@ -116,19 +132,20 @@
                             id="rememberMe"
                           />
                           <label class="form-check-label" for="rememberMe"
-                            >Remember me</label
+                            >Garder ma session ouverte</label
                           >
                         </div>
                       </div>
-                      <div class="col-12">
-                        <button class="btn btn-primary w-100" type="submit">
-                          Login
-                        </button>
+
+                      <div class="col-12 center">
+                        <a href="accueil.html" class="btn btn-primary">
+                          Se connecter
+                        </a>
                       </div>
                       <div class="col-12">
                         <p class="small mb-0">
-                          Don't have account?
-                          <a href="pages-register.html">Create an account</a>
+                          Mot de passe oublié?
+                          <a href="#">Réinitialiser votre mot de passe</a>
                         </p>
                       </div>
                     </form>
@@ -146,13 +163,13 @@
     </main>
     <!-- End #main -->
 
-    <a
+    <!-- <a
       href="#"
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    ></a>-->
 
-    <!-- Vendor JS Files -->
+    <!-- Vendor JS Files 
     <script src="vendor/apexcharts/apexcharts.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/chart.js/chart.umd.js"></script>
@@ -160,9 +177,9 @@
     <script src="vendor/quill/quill.js"></script>
     <script src="vendor/simple-datatables/simple-datatables.js"></script>
     <script src="vendor/tinymce/tinymce.min.js"></script>
-    <script src="vendor/php-email-form/validate.js"></script>
+    <script src="vendor/php-email-form/validate.js"></script>-->
 
     <!-- Template Main JS File -->
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
