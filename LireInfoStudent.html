@@ -312,7 +312,7 @@
               <ul class="nav nav-tabs nav-tabs-bordered">
 
                 <li class="nav-item">
-                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">A propos</button>
+                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">Infos</button>
                 </li>
 
                 <li class="nav-item">
@@ -320,7 +320,7 @@
                 </li>
 
                 <li class="nav-item">
-                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-settings">Settings</button>
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-settings">Notes</button>
                 </li>
 
                 <li class="nav-item">
@@ -513,27 +513,28 @@
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="newProducts" checked>
                           <label class="form-check-label" for="newProducts">
-                            Information on new products and services
+                            Information on student notes
                           </label>
                         </div>
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="proOffers">
                           <label class="form-check-label" for="proOffers">
-                            Marketing and promo offers
+                            received all notes to this year
                           </label>
                         </div>
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" id="securityNotify" checked disabled>
                           <label class="form-check-label" for="securityNotify">
-                            Security alerts
+                            Information on student moyenne
                           </label>
                         </div>
                       </div>
                     </div>
 
                     <div class="text-center">
-                      <button type="submit" class="btn btn-primary">Save Changes</button>
+                      <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal" onclick="prompt('matricule ou id etudiant')">Received all notes</button>
                     </div>
+                    
                   </form><!-- End settings Form -->
 
                 </div>
@@ -564,7 +565,7 @@
                     </div>
 
                     <div class="text-center">
-                      <button type="submit" class="btn btn-primary">Change Password</button>
+                      <button type="submit" class="btn btn-primary">Change -save Password</button>
                     </div>
                   </form><!-- End Change Password Form -->
 
